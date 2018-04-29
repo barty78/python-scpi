@@ -6,7 +6,7 @@ import binascii
 import time
 import sys
 import select
-from baseclass import transports_base
+from .baseclass import transports_base
 
 # basically a wrapper for Serial
 class transports_rs232(transports_base):
